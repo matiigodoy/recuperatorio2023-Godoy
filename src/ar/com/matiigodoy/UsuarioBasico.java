@@ -57,5 +57,9 @@ public class UsuarioBasico extends Usuario implements IBloqueable, IEliminable{
 	public void setIntentosLogin(Integer intentosLogin) {
 		this.intentosLogin = intentosLogin;
 	}
+	
+	public void IncrementarIntentos() {
+		this.intentosLogin++;
+	}
 
 }

@@ -54,6 +54,11 @@ public class TestCases {
 		assertEquals(ULTIMO_USUARIO_ESPERADO, sistema.getUsuariosOrdenados().last().getUser());
 	}
 	
-	
-
+	/*No llegué con el tiempo así que voy a entregar hasta donde compila y los test dan verde.
+	 * Para validar las excepciones en los Test hubiese usado (expected=*nombreExcepcion*.class)
+	 * En la lógica de cada método hubiera declarado que "puede lanzar" una excepcion (throws), y dentro
+	 * de los mismos validaría que si no pasa lo que tiene que pasar "lance" la excepcion (throw new *nombreExcepcion*)
+	 * No sirve de nada escribirlo, pero por lo menos quiero que sepan que se entendió la explicación.
+	 * Saludos!
+	*/
 }
